@@ -108,7 +108,7 @@ def main_first_order():
     ax.spines["right"].set_visible(False)
 
     ax.axhline(y=0.3382029640059954, linestyle="--", c="maroon", 
-               label=r"Direct method ($\gamma = 0.01$)", alpha=0.7)
+               label=r"CVXPY ($\gamma = 0.01$)", alpha=0.7)
 
     plt.legend()
     plt.savefig("loss_approx.pdf")
